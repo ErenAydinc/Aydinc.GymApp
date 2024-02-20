@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "STXVeUxheCiTsm3O2ZHipdZNdXAuFegDwBguox4ypeOo/5ZC3NdXBwfvqv8QtQHZx7SlDoXFGWoCuM7FOfbksw==",
+  "success": true,
+  "projectFilePath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Translation.AmazonTranslate.DependencyInjection\\Core.Translation.AmazonTranslate.DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erena\\.nuget\\packages\\awssdk.core\\3.7.302.4\\awssdk.core.3.7.302.4.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\awssdk.translate\\3.7.300.44\\awssdk.translate.3.7.300.44.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

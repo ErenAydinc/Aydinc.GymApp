@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V0lWxrgGnvI0UjPlYxhwh6gU1R95dPVL/RtYPCsA+0auheeKI56MmBzvBbmgM1266WoHizunZaBvVCUPJ3Omog==",
+  "success": true,
+  "projectFilePath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml.DependencyInjection\\Core.Localization.Resource.Yaml.DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\yamldotnet\\15.1.0\\yamldotnet.15.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

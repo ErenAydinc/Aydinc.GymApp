@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kodlamaio.NArchitecture.Core.Persistence</id>
+    <version>0.1.0</version>
+    <title>NArchitecture Core.Persistence</title>
+    <authors>Kodlama.io, Contributors</authors>
+    <icon>n-architecture-logo.png</icon>
+    <description>Core package for persistence layer in NArchitecture project.</description>
+    <tags>Core, EntityFrameworkCore, Repository, Entity, CRUD, Paging, DynamicQuery, SoftDelete</tags>
+    <repository type="git" url="https://github.com/kodlamaio-projects/nArchitecture.Core" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.InMemory" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Linq.Dynamic.Core" version="1.3.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\BackendProjects\GymApp\src\corePackages\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll" target="lib\net8.0\Core.Persistence.dll" />
+  </files>
+</package>

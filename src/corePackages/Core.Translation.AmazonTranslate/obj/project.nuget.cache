@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wMU9VwbBI3V0XyzlPxq17KwySe36Gu+Nd8vhJAHPGi5Zr12nvfw9I5OW6TW39zRBIUhLvF231FdS/XXvHS4+oQ==",
+  "success": true,
+  "projectFilePath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Translation.AmazonTranslate\\Core.Translation.AmazonTranslate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erena\\.nuget\\packages\\awssdk.core\\3.7.302.4\\awssdk.core.3.7.302.4.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\awssdk.translate\\3.7.300.44\\awssdk.translate.3.7.300.44.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,38 @@
+﻿@*
+    Personal Trainers Index Page
+*@
+@{
+    Layout = KTTheme.GetView("Default.cshtml");
+}
+
+
+<div class="d-flex justify-content-center">
+	<div class="table-responsive">
+		<table class="table table-striped gy-7 gs-7" id="ern">
+			<thead>
+				<tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
+					<th>Adı</th>
+					<th>Soyadı</th>
+					<th>Email</th>
+					<th>Öğrenci Sayısı</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tiger Nixon</td>
+					<td>System Architect</td>
+					<td>Edinburgh</td>
+					<td>61</td>
+				</tr>
+				<tr>
+					<td>Garrett Winters</td>
+					<td>Accountant</td>
+					<td>Tokyo</td>
+					<td>63</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<partial name="~/Views/Partials/Admin/PersonalTrainers/_CreatePersonalTrainer.cshtml"></partial>

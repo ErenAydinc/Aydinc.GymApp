@@ -1,0 +1,34 @@
+@{
+    Layout = KTTheme.GetView("Empty.cshtml");
+}
+
+<div style="width: 100vw;height: 100vh;overflow: hidden;">
+    <img src="~/assets/media/auth/bg5-dark.jpg" style="width:100%;height:100%;position:absolute;object-fit:cover"/>
+    <div class="d-flex justify-content-center align-items-center" style="height:100vh;">
+        <div class="card shadow-sm">
+            <div class="card-header d-flex justify-content-center">
+                <h3 class="card-title">Personal Trainer Giriþ</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller="Auth" asp-action="Login">
+                    <div class="form-floating mb-7">
+                        <input name="Email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                        <label for="floatingInput">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-7">
+                        <input name="Password" type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <button type="submit" style="width:100%;" class="btn btn-primary mb-2">Giriþ Yap</button>
+                    <div class="text-gray-500 text-center fw-semibold fs-6">
+                        Henüz kayýt olmadýn mý ?
+
+                        <a href="signup" class="link-primary">
+                            Kayýt ol
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+@{
+    Layout = KTTheme.GetView("Empty.cshtml");
+}
+<div style="width: 100vw;height: 100vh;overflow: hidden;">
+    <img src="~/assets/media/auth/bg5-dark.jpg" style="width:100%;height:100%;position:absolute;object-fit:cover" />
+    <div class="d-flex justify-content-center align-items-center" style="height:100vh;">
+        <div class="card shadow-sm" style="width:20%;">
+            <div class="card-header d-flex justify-content-center">
+                <h3 class="card-title">Personal Trainer Kayýt</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller="Auth" asp-action="Register">
+                    <div class="form-floating mb-7">
+                        <input name="FirstName" type="text" class="form-control" id="floatingInput" placeholder="example" />
+                        <label for="floatingInput">First Name</label>
+                    </div>
+                    <div class="form-floating mb-7">
+                        <input name="LastName" type="text" class="form-control" id="floatingInput" placeholder="example" />
+                        <label for="floatingInput">Last Name</label>
+                    </div>
+                    <div class="form-floating mb-7">
+                        <input name="PhoneNumber" type="text" class="form-control" id="floatingInput" placeholder="example" />
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+                    <div class="form-floating mb-7">
+                        <input name="Email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                        <label for="floatingInput">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-7">
+                        <input name="Password" type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2" style="width:100%">Kayýt Ol</button>
+                    <div class="text-gray-500 text-center fw-semibold fs-6">
+                        Hesabýn var mý ?
+
+                        <a href="signin" class="link-primary">
+                            Giriþ Yap
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

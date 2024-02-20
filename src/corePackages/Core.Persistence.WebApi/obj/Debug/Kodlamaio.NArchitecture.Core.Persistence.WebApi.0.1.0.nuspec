@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kodlamaio.NArchitecture.Core.Persistence.WebApi</id>
+    <version>0.1.0</version>
+    <title>NArchitecture Core.Persistence.WebApi</title>
+    <authors>Kodlama.io, Contributors</authors>
+    <icon>n-architecture-logo.png</icon>
+    <description>Core package for persistence layer in NArchitecture project.</description>
+    <tags>Core, EntityFrameworkCore, Repository, Entity, CRUD, Paging, DynamicQuery, SoftDelete</tags>
+    <repository type="git" url="https://github.com/kodlamaio-projects/nArchitecture.Core" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Kodlamaio.NArchitecture.Core.Persistence" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Extensions" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\BackendProjects\GymApp\src\corePackages\Core.Persistence.WebApi\bin\Debug\net8.0\Core.Persistence.WebApi.dll" target="lib\net8.0\Core.Persistence.WebApi.dll" />
+  </files>
+</package>

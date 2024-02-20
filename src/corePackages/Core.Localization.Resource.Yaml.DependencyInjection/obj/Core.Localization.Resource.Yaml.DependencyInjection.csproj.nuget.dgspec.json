@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml.DependencyInjection\\Core.Localization.Resource.Yaml.DependencyInjection.csproj": {}
+  },
+  "projects": {
+    "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj",
+        "projectName": "Kodlamaio.NArchitecture.Core.Localization.Abstraction",
+        "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\erena\\.nuget\\packages\\",
+        "outputPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\erena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Users\\erena\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml.DependencyInjection\\Core.Localization.Resource.Yaml.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml.DependencyInjection\\Core.Localization.Resource.Yaml.DependencyInjection.csproj",
+        "projectName": "Kodlamaio.NArchitecture.Core.Localization.Resource.Yaml.DependencyInjection",
+        "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml.DependencyInjection\\Core.Localization.Resource.Yaml.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\erena\\.nuget\\packages\\",
+        "outputPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\erena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Users\\erena\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj": {
+                "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj"
+              },
+              "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\Core.Localization.Resource.Yaml.csproj": {
+                "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\Core.Localization.Resource.Yaml.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\Core.Localization.Resource.Yaml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\Core.Localization.Resource.Yaml.csproj",
+        "projectName": "Kodlamaio.NArchitecture.Core.Localization.Resource.Yaml",
+        "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\Core.Localization.Resource.Yaml.csproj",
+        "packagesPath": "C:\\Users\\erena\\.nuget\\packages\\",
+        "outputPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\erena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Users\\erena\\.nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj": {
+                "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

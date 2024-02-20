@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kodlamaio.NArchitecture.Core.Localization.Abstraction</id>
+    <version>0.1.0</version>
+    <title>NArchitecture Core.Localization.Abstraction</title>
+    <authors>Kodlama.io, Contributors</authors>
+    <icon>n-architecture-logo.png</icon>
+    <description>Core package for localization in NArchitecture project.</description>
+    <tags>Core, Localization</tags>
+    <repository type="git" url="https://github.com/kodlamaio-projects/nArchitecture.Core" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\BackendProjects\GymApp\src\corePackages\Core.Localization.Abstraction\bin\Debug\net8.0\Core.Localization.Abstraction.dll" target="lib\net8.0\Core.Localization.Abstraction.dll" />
+  </files>
+</package>

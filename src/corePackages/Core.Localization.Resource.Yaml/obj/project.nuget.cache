@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J2czl8UVgnu6q0oC/d6EU95tVCz1w3dZpLSuI3nxZ0ochms34OvY2p6Bj6bDGQP+uhMvU/zfprx9F0aU8VMRKw==",
+  "success": true,
+  "projectFilePath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Resource.Yaml\\Core.Localization.Resource.Yaml.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erena\\.nuget\\packages\\yamldotnet\\15.1.0\\yamldotnet.15.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kodlamaio.NArchitecture.Core.Translation.AmazonTranslate.DependencyInjection</id>
+    <version>0.1.0</version>
+    <title>NArchitecture Core.Translation.AmazonTranslate.DependencyInjection</title>
+    <authors>Kodlama.io, Contributors</authors>
+    <icon>n-architecture-logo.png</icon>
+    <description>Core package for persistence layer in NArchitecture project.</description>
+    <tags>Core, Translation, Amazon, Amazon Translate</tags>
+    <repository type="git" url="https://github.com/kodlamaio-projects/nArchitecture.Core" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Kodlamaio.NArchitecture.Core.Translation.AmazonTranslate" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\BackendProjects\GymApp\src\corePackages\Core.Translation.AmazonTranslate.DependencyInjection\bin\Debug\net8.0\Core.Translation.AmazonTranslate.DependencyInjection.dll" target="lib\net8.0\Core.Translation.AmazonTranslate.DependencyInjection.dll" />
+  </files>
+</package>

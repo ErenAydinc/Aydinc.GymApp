@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kodlamaio.NArchitecture.Core.Test</id>
+    <version>0.1.0</version>
+    <title>NArchitecture Core.Test</title>
+    <authors>Kodlama.io, Contributors</authors>
+    <icon>n-architecture-logo.png</icon>
+    <description>Core package for tests in NArchitecture project.</description>
+    <tags>Core, Test, Testing, Mock, Repository</tags>
+    <repository type="git" url="https://github.com/kodlamaio-projects/nArchitecture.Core" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Kodlamaio.NArchitecture.Core.Application" version="0.1.1" exclude="Build,Analyzers" />
+        <dependency id="Kodlamaio.NArchitecture.Core.Localization.Resource.Yaml" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Kodlamaio.NArchitecture.Core.Persistence" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="12.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Moq" version="4.20.70" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\BackendProjects\GymApp\src\corePackages\Core.Test\bin\Debug\net8.0\Core.Test.dll" target="lib\net8.0\Core.Test.dll" />
+  </files>
+</package>

@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<link href="~/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+<script src="~/assets/js/scripts.bundle.js"></script>
+<link href="~/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+<script src="~/assets/plugins/global/plugins.bundle.js"></script>
+
+
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_1">
+    Personal Trainer Ekle
+</button>
+
+<div class="modal fade" tabindex="-1" id="kt_modal_1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Personal Trainer Ekleme</h3>
+
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="ki-duotone ki-cross fs-1"><span class="path1"></span><span class="path2"></span></i>
+                </div>
+                <!--end::Close-->
+            </div>
+            <form method="post" asp-action="create" asp-controller="PersonalTrainers">
+            <div class="modal-body">
+                <div class="form-floating mb-7">
+                    <input type="text" class="form-control" name="FirstName" id="floatingInput" placeholder="name@example.com" />
+                    <label for="floatingInput">Adı</label>
+                </div>
+                <div class="form-floating mb-7">
+                    <input type="text" class="form-control" name="LastName" id="floatingInput" placeholder="name@example.com" />
+                    <label for="floatingInput">Soyadı</label>
+                </div>
+                <div class="form-floating mb-7">
+                    <input type="email" class="form-control" name="Email" id="floatingInput" placeholder="name@example.com" />
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-7">
+                    <input class="form-control form-control" name="PhoneNumber" id="kt_inputmask_2" placeholder="Telefon Numarası" inputmode="text">
+                    <label for="floatingInput">Telefon Numarası</label>
+                </div>
+                <div class="mb-7">
+                    <input class="form-control form-control-solid" name="BirthDay" placeholder="Doğum Tarihi" id="kt_datepicker_3" />
+                </div>
+                <div class="form-floating mb-7">
+                    <input type="password" class="form-control" name="Password" id="floatingInput" placeholder="************" />
+                    <label for="floatingInput">Şifre</label>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $("#kt_datepicker_3").flatpickr({
+        enableTime: false,
+        dateFormat: "d-m-Y",
+    });
+    // Phone
+    Inputmask({
+        "mask": "(999) 999-9999"
+    }).mask("#kt_inputmask_2");
+</script>

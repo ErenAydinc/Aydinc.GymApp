@@ -1,0 +1,30 @@
+﻿using Core.Persistence.Repositories;
+
+namespace Core.Security.Entities;
+
+public class EmailAuthenticator<TUserId, TOperationClaimId> : Entity<TUserId>
+{
+    public TUserId UserId { get; set; }
+    public string? ActivationKey { get; set; }
+    public bool IsVerified { get; set; }
+
+    public virtual User<TUserId, TOperationClaimId> User { get; set; } = null!;
+
+    public EmailAuthenticator()
+    {
+        UserId = default!;
+    }
+
+    public EmailAuthenticator(TUserId userId, bool isVerified)
+    {
+        UserId = userId;
+        IsVerified = isVerified;
+    }
+
+    public EmailAuthenticator(TUserId id, TUserId userId, bool isVerified)
+        : base(id)
+    {
+        UserId = userId;
+        IsVerified = isVerified;
+    }
+}

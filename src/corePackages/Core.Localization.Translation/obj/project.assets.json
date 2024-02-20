@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Kodlamaio.NArchitecture.Core.Localization.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Kodlamaio.NArchitecture.Core.Localization.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kodlamaio.NArchitecture.Core.Localization.Abstraction.dll": {}
+        }
+      },
+      "Kodlamaio.NArchitecture.Core.Translation.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Kodlamaio.NArchitecture.Core.Translation.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kodlamaio.NArchitecture.Core.Translation.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kodlamaio.NArchitecture.Core.Localization.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../Core.Localization.Abstraction/Core.Localization.Abstraction.csproj",
+      "msbuildProject": "../Core.Localization.Abstraction/Core.Localization.Abstraction.csproj"
+    },
+    "Kodlamaio.NArchitecture.Core.Translation.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../Core.Translation.Abstraction/Core.Translation.Abstraction.csproj",
+      "msbuildProject": "../Core.Translation.Abstraction/Core.Translation.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Kodlamaio.NArchitecture.Core.Localization.Abstraction >= 1.0.0",
+      "Kodlamaio.NArchitecture.Core.Translation.Abstraction >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\erena\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Translation\\Core.Localization.Translation.csproj",
+      "projectName": "Kodlamaio.NArchitecture.Core.Localization.Translation",
+      "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Translation\\Core.Localization.Translation.csproj",
+      "packagesPath": "C:\\Users\\erena\\.nuget\\packages\\",
+      "outputPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Translation\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\erena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Users\\erena\\.nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj": {
+              "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Localization.Abstraction\\Core.Localization.Abstraction.csproj"
+            },
+            "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Translation.Abstraction\\Core.Translation.Abstraction.csproj": {
+              "projectPath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.Translation.Abstraction\\Core.Translation.Abstraction.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

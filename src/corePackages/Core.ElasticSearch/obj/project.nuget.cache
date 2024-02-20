@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2oCMCbsAnMOmKBMizy7GZiLnsWfGfi6QQ1Z03p82s+6BPrqLhOf4ycyQQ5giJ4hbecfGTVA+e0/e2fDgsYXnQ==",
+  "success": true,
+  "projectFilePath": "C:\\BackendProjects\\GymApp\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erena\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\nest.jsonnetserializer\\7.17.5\\nest.jsonnetserializer.7.17.5.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\erena\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

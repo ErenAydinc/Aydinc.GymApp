@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kodlamaio.NArchitecture.Core.ElasticSearch</id>
+    <version>0.1.0</version>
+    <title>NArchitecture Core.ElasticSearch</title>
+    <authors>Kodlama.io, Contributors</authors>
+    <icon>n-architecture-logo.png</icon>
+    <description>Core package for elastic search in NArchitecture project.</description>
+    <tags>Core, ElasticSearch, Service</tags>
+    <repository type="git" url="https://github.com/kodlamaio-projects/nArchitecture.Core" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Elasticsearch.Net" version="7.17.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="NEST" version="7.17.5" exclude="Build,Analyzers" />
+        <dependency id="NEST.JsonNetSerializer" version="7.17.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\BackendProjects\GymApp\src\corePackages\Core.ElasticSearch\bin\Debug\net8.0\Core.ElasticSearch.dll" target="lib\net8.0\Core.ElasticSearch.dll" />
+  </files>
+</package>
